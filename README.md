@@ -9,7 +9,7 @@ This is a project of database for military department. It includes a resource ma
 ![alt text](https://github.com/ilyamogilin/mil-interceptors/raw/master/relation_schema.jpg "Relation schema")
 
 ## Functionality
-This database implements functionality of interceptors airbase. When user inserts data into Planes table, the database automatically spreads planes into two equal duties based on fuel in interceptor's tank. Also automatic order assignment is implemented: when user insert record into Orders table, the database assigns this order to pilot which is the nearest to target location. Also speed and fuel level of planes are taken into account. Two groups of users are created. First can only select data from tables, another one can only insert data into tables.
+This database implements functionality of interceptors airbase. When user inserts data into Planes table, the database automatically spreads planes into two equal duties based on fuel in interceptor's tank. Also automatic order assignment is implemented: when user inserts record into Orders table, the database assigns this order to pilot which is the nearest to target location. Also speed and fuel level of planes are taken into account. Two groups of users are created. First can only select data from tables, another one can only insert data into tables.
 
 ## Notes
 * this code uses syntax of PostgreSQL 7.4 version (due to some restrictions) but newer version should support this code too
