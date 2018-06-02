@@ -2,7 +2,7 @@
 This is a project of database for military department. It includes a resource management system of interceptors and pilots. Study the relation schema to understand the structure and relations of entities.
 
 * main.sql - the script with DDL/DML commands which both creates structure and inserts some test values into created tables
-* pg_hba.conf - postgres configuration file with priveleges for users
+* pg_hba.conf - postgres configuration file with privileges for users
 * data.py - python script for sample data generation
 
 ## Relation Schema
